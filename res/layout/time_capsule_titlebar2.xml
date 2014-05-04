@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal" android:background="@color/time_capsule_title_color">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="时间胶囊"
+            android:textSize="24sp"
+            android:id="@+id/time_capsule_view_title"
+            android:textColor="@color/time_capsule_title_font_color"
+            android:gravity="center" android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>

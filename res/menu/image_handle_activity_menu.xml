@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/image_handle_net_share"
+                 android:title="@string/image_handle_net_handle_text"
+                 android:showAsAction="ifRoom"/>
+
+</menu>

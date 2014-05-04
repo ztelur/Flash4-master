@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              tools:context=".RecordActivity"
+              android:focusableInTouchMode="false"
+              android:background="@color/time_capsule_background_color"
+              android:orientation="vertical"
+              android:baselineAligned="false"
+              android:gravity="bottom">
+
+    <View
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="@color/time_capsule_line_color"
+            android:id="@+id/time_capsule_split_line3"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/time_capsule_image_view"
+            android:layout_margin="5dp"
+            android:background="@color/time_capsule_background_color"
+            android:layout_weight="1"
+            android:src="@drawable/defaultpic"
+            android:contentDescription="Photo of time capsule"/>
+
+    <View
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="@color/time_capsule_line_color"
+            android:id="@+id/time_capsule_split_line2"/>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/time_capsule_detail_content"
+            android:background="@color/time_capsule_title_color"
+            android:orientation="vertical"
+            android:visibility="gone">
+    </LinearLayout>
+
+    <View
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="@color/time_capsule_line_color"
+            android:id="@+id/time_capsule_split_line1"
+            android:layout_marginBottom="3dp"/>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout"
+            android:background="@color/time_capsule_title_color"
+            android:padding="3dp">
+
+        <com.nju.Flash.time_capsule.buttons.TitleOpenButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_capsule_title_button"
+                android:scaleType="fitXY"
+                android:src="@drawable/time_capsule_title_button"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+        <com.nju.Flash.time_capsule.buttons.TextOpenButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_capsule_text_button"
+                android:scaleType="fitXY"
+                android:src="@drawable/time_capsule_text_buton"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+        <com.nju.Flash.time_capsule.buttons.TimeOpenButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_capsule_time_button"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitXY"
+                android:src="@drawable/time_capsule_time_button"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+        <com.nju.Flash.time_capsule.buttons.RecordOpenButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_capsule_record_button"
+                android:src="@drawable/time_capsule_record_button"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+    </LinearLayout>
+</LinearLayout>

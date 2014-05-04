@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_name_color">#FF0000</color>
+    <color name="app_name_shadow_color">#FFFFFF</color>
+    <color name="pen_color">#FF0000</color>
+    <color name="time_capsule_title_color">#F9F9F9</color>
+    <color name="time_capsule_button_color">#0079FF</color>
+    <color name="time_capsule_title_font_color">#0079FF</color>
+    <color name="time_capsule_background_color">#EFEFF4</color>
+    <color name="time_capsule_line_color">#979797</color>
+</resources>

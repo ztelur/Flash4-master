@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="40dp" android:padding="3dp"
+              android:background="@color/time_capsule_title_color">
+
+    <com.nju.Flash.time_capsule.buttons.RecordButton
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="按住录音"
+            android:id="@+id/time_capsule_record_start_button" android:layout_weight="1"
+            android:background="@drawable/time_capsule_button" android:textColor="#ffffff"/>
+    <View
+            android:layout_height="fill_parent"
+            android:layout_width="3dp"
+            android:background="@color/time_capsule_title_color"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="播放录音"
+            android:id="@+id/time_capsule_record_play_button" android:layout_gravity="center_horizontal" android:layout_weight="1"
+            android:background="@drawable/time_capsule_button" android:textColor="#ffffff"/>
+</LinearLayout>

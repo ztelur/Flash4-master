@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <Button
+              android:id="@+id/create_Time_Capsule_Button"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:text="@string/time_capsule_take_photo_button_text"
+              android:layout_margin="20px"
+            />
+    <Button
+               android:id="@+id/check_Time_Line_Button"
+               android:layout_height="wrap_content"
+               android:layout_width="fill_parent"
+               android:text="@string/time_capsule_watch_button_text"
+               android:layout_marginLeft="20px"
+               android:layout_marginRight="20px"
+
+            />
+
+</LinearLayout>

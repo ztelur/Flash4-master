@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="time_capsule_take_photo_button_text">"建立新的时间胶囊"</string>
+    <string name="time_capsule_watch_button_text">"查看时间胶囊"</string>
+    <string name="action_settings">"setting"</string>
+    <string name="hello_world">"Hello world"</string>
+
+</resources>

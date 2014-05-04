@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--以下是FlashLaunch中的所需的string数值-->
+
+    <string name="image_handle_button_text">"编辑图片"</string>
+    <string name="time_capsule_button_text">"建立/编辑时间胶囊"</string>
+    <string name="label_bang_button_text">"查看分类图片"</string>
+
+    <string name="app_help_menu_text">"帮助"</string>
+    <!--TODO:关于此处的按键名称问题，有待讨论-->
+    <string name="openFromGalleryButton">"从相册中打开"</string>
+    <string name="takenByCameraButton">"用相机拍照"</string>
+</resources>

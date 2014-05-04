@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="35dip"
+            android:textColor="@color/app_name_color"
+            android:shadowColor="@color/app_name_shadow_color"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="100"
+            android:layout_marginLeft="85px"
+            android:layout_marginTop="10px"
+            />
+    <Button
+            android:id="@+id/launch_image_handle_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/image_handle_button_text"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"/>
+    <Button
+            android:id="@+id/launch_time_capsule_button"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/time_capsule_button_text"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"/>
+    <Button
+            android:id="@+id/launch_check_photo_button"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/label_bang_button_text"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="20px"/>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="10px"
+              >
+    <!--<CalendarView android:layout_width="wrap_content" android:layout_height="wrap_content">-->
+                <!---->
+    <!--</CalendarView>-->
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                       android:id="@+id/timeFragment_time"
+                        android:background="@color/time_capsule_background_color"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:layout_weight="4">
+        <ImageView android:layout_width="match_parent" android:layout_height="200px"
+                                android:layout_alignParentTop="true"
+                                android:id="@+id/timeFragment_image"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentBottom="true"
+                                android:id="@+id/timeFragment_text"
+                                android:layout_below="@id/timeFragment_image"
+                                android:textAlignment="center"/>
+        <ImageButton
+                                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:id="@+id/timeFragment_sound"
+
+                                android:layout_alignParentRight="true"
+                                android:layout_alignRight="@id/timeFragment_text"
+                                android:layout_below="@id/timeFragment_image"/>
+    </RelativeLayout>
+
+</LinearLayout>

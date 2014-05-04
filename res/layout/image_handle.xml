@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <com.nju.Flash.image_manipulation.MyLayout.SlidingLayout
+            android:id="@+id/slidingLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:background="#00ccff">
+                    <Button
+                            android:id="@+id/pen_function_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pen_function_fragment_button"
+                                   />
+                    <Button
+                            android:id="@+id/attribute_function_button"
+                            android:layout_width="fill_parent"
+                                   android:layout_height="wrap_content"
+                                   android:text="@string/attribute_change_fragment_button"
+                                  />
+                    <Button
+                        android:id="@+id/conversion_button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="图片转换"
+                     />
+                    <Button android:layout_width="fill_parent" android:layout_height="wrap_content"
+                            android:id="@+id/hahajing_button"
+                            android:text="哈哈镜"/>
+            </LinearLayout>
+
+
+        <RelativeLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10px">
+
+
+            <LinearLayout
+                    android:id="@+id/ll_show"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+
+
+                    android:orientation="vertical" >
+                <!--<ImageView-->
+                <!--android:id="@+id/image_handle_imageView"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:scaleType="centerInside" />-->
+
+            </LinearLayout>
+            <!--<LinearLayout-->
+            <!--android:id="@+id/button_Layout_list"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!-->-->
+            <!--<Button-->
+            <!--android:id="@+id/pen_start_button"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="@string/pen_start_button"/>-->
+            <!--<Button-->
+            <!--android:id="@+id/cut_off_start_button"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="@string/cut_off_start_button"/>-->
+            <!--</LinearLayout>-->
+            <FrameLayout
+                    android:id="@+id/content"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true">
+
+
+            </FrameLayout>
+
+        </RelativeLayout>
+    </com.nju.Flash.image_manipulation.MyLayout.SlidingLayout>
+</LinearLayout>

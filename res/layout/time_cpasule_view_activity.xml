@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical">
+    <View
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="@color/time_capsule_line_color"
+            android:id="@+id/time_capsule_split_line"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="时间胶囊正文"
+            android:id="@+id/timeCapsuleText"
+            android:gravity="center_horizontal"/>
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/timeCapsulePhotoView"
+            android:clickable="true"/>
+</LinearLayout>

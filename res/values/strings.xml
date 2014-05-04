@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flash</string>
+    <string name="sure_to_exit_time_capsule">是否退出时间胶囊</string>
+</resources>

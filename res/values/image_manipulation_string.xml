@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pen_start_button">"画笔"</string>
+    <string name="cut_off_start_button">"图形"</string>
+    <string name="pen_function_fragment_button">"画笔工具"</string>
+    <string name="attribute_change_fragment_button">"属性改变"</string>
+</resources>

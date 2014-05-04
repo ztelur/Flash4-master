@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="40dp" android:background="@color/time_capsule_title_color"
+              android:padding="3dp">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="未设置提醒的日期时间，点击此处设置"
+            android:id="@+id/time_capsule_time_text"
+            android:layout_above="@+id/time_capsule_text_edit"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:clickable="true" android:background="@color/time_capsule_button_color" android:textColor="#ffffff"/>
+</LinearLayout>

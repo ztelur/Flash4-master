@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true">
+    <Button android:layout_width="match_parent" android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/hahajing_button"
+                android:text="哈哈镜"/>
+    <Button android:layout_width="match_parent" android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/bigger_Button"
+                android:text="变大......"/>
+    <Button android:layout_width="match_parent" android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/magicMirror_Button"
+                android:text="魔镜"/>
+    <Button android:layout_width="match_parent" android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/swirl_Button"
+                android:text="swirl"/>
+    <Button android:layout_width="match_parent" android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/water_Button"
+                android:text="water"/>
+
+</LinearLayout>
