@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@color/time_capsule_line_color" /> <!-- pressed -->
+    <item android:state_focused="true"
+          android:drawable="@color/time_capsule_background_color" /> <!-- focused -->
+    <item android:drawable="@color/time_capsule_white" /> <!-- default -->
+</selector>

@@ -127,7 +127,7 @@
                 android:text="确定"
                 android:id="@+id/ok_button"
                 android:layout_weight="1"
-                android:background="@color/time_capsule_title_color"
+                android:background="@drawable/time_capsule_button_state"
                 android:singleLine="false"
                 android:textSize="20dp" android:textStyle="bold"
                 android:textColor="@color/time_capsule_button_color"/>

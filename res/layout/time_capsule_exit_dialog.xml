@@ -10,14 +10,17 @@
             android:layout_height="1dp"
             android:background="@color/time_capsule_line_color"
             />
+
     <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
+
         <View
                 android:layout_height="fill_parent"
                 android:layout_width="1dp"
                 android:background="@color/time_capsule_line_color"
                 />
+
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="50dp"
@@ -28,27 +31,34 @@
                 android:textColor="@color/time_capsule_title_font_color"
                 android:textSize="24dp"
                 android:singleLine="true"
-                android:gravity="center_vertical" android:paddingLeft="10dp" android:paddingRight="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
                 />
+
         <View
                 android:layout_height="fill_parent"
                 android:layout_width="1dp"
                 android:background="@color/time_capsule_line_color"
                 />
     </LinearLayout>
+
     <View
             android:layout_width="fill_parent"
             android:layout_height="1dp"
             android:background="@color/time_capsule_line_color"
             />
+
     <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
+
         <View
                 android:layout_height="fill_parent"
                 android:layout_width="1dp"
                 android:background="@color/time_capsule_line_color"
                 />
+
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -57,22 +67,29 @@
                 android:background="@color/time_capsule_title_color"
                 android:textSize="18dp"
                 android:paddingTop="10dp"
-                android:paddingBottom="10dp" android:paddingLeft="50dp" android:textColor="#000000"
-                android:paddingRight="50dp"/>
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:textColor="#000000"
+                android:paddingRight="30dp"
+                android:enabled="false"/>
+
         <View
                 android:layout_height="fill_parent"
                 android:layout_width="1dp"
                 android:background="@color/time_capsule_line_color"
                 />
     </LinearLayout>
+
     <View
             android:layout_width="fill_parent"
             android:layout_height="1dp"
             android:background="@color/time_capsule_line_color"
             />
+
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp">
+
         <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -80,21 +97,27 @@
                 android:id="@+id/ok_button"
                 android:layout_weight="1"
                 android:singleLine="false"
-                android:textSize="20dp" android:textStyle="bold" android:background="#ffffff"/>
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/time_capsule_button_state"/>
+
         <View
                 android:layout_height="fill_parent"
                 android:layout_width="1dp"
                 android:background="@color/time_capsule_line_color"
                 />
+
         <Button
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
                 android:text="否"
                 android:id="@+id/cancel_button"
                 android:layout_weight="1"
-                android:background="#ffffff"
-                android:textSize="20dp" android:textStyle="bold"/>
+                android:background="@drawable/time_capsule_button_state"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
     </LinearLayout>
+
     <View
             android:layout_width="fill_parent"
             android:layout_height="1dp"
