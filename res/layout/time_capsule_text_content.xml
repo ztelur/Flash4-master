@@ -8,5 +8,8 @@
     <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/time_capsule_text_text"/>
+            android:drawableLeft="@drawable/time_capsule_text_in_pic"
+            android:background="@drawable/time_capsule_edit_text_shape"
+            android:id="@+id/time_capsule_text_text"
+            android:layout_margin="2dp"/>
 </LinearLayout>
